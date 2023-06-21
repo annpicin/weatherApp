@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="content">
+
+        <header class = "main-title">
+            <h1>Weather App</h1>
+            <img src = "https://media.istockphoto.com/id/477110708/photo/weather-forecast.jpg?b=1&s=612x612&w=0&k=20&c=H5W5GGp6bW-fzQVoTmUp-aLyCD7WMtY2tTHFvzf7nYU=" width = "400" height= "200">
+        </header>
+
+        <form>
+            <input type="text" id="input_id" value="">
+            <input type="button" value="Submit" onclick="displayWeather()" />
+            <div id="alert" style="color: red"></div>
+          </form>
+       
+
+        <div id = "weatherpart">
+        </div>
+    </div>
+</body>
+</html>
