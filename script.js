@@ -34,7 +34,7 @@ async function displayWeather(){
 //Fetch Data from Weather API
 async function fetchAPIData(endpoint, location){
     const YOUR_API_KEY = '145451076acd4890851150448232006'
-    const API_URL = 'http://api.weatherapi.com/v1/'
+    const API_URL = 'https://api.weatherapi.com/v1/'
     var QUERY = location
     
 
